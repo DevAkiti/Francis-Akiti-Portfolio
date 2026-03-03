@@ -1,0 +1,338 @@
+
+
+body{
+    background: #020C1B ; 
+    letter-spacing: 1px;
+    color: gray;
+    
+}
+
+.main-container{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease-in-out all 1.3s;
+}
+
+nav p{
+    font-size: 1.9rem;
+}
+
+.menu{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.menu-bar{
+	padding: 1.6rem;
+	display: none;
+}
+
+.menu-bar i{
+	font-size: 1.6rem;
+	cursor: pointer;
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    color: darkorange;
+    list-style: decimal-leading-zero;
+}
+
+.dropdown-menu{
+	height: 18rem;
+}
+
+
+button{
+    background-color: transparent;
+    color: darkorange;
+    font-weight: bold;
+    border: darkorange 1px solid;
+    padding: 3px 5px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.8rem;
+}
+
+.intro p{
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.intro p span{
+    font-size: 1.2rem;
+    word-spacing: 5px;
+}
+
+.intro-img{
+    display: flex;
+    justify-self: center;
+}
+
+.intro-img img{
+    height: 200px;
+}
+
+h1{
+    font-size: 45px;
+    margin:0px;
+    color: white;
+}
+
+span{
+    color: darkorange;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links a{
+    font-size: 30px;
+}
+
+.links .social-links i{
+    color: darkorange;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+@media(hover: hover){
+    .links .social-links i:hover{
+        color: #020C1B;
+        background-color: darkorange;
+        scale: 1.3; 
+        padding: 2px;
+        filter: drop-shadow(0 0 5px darkorange);
+    }
+
+    .links button:hover{
+        color: #020C1B;
+        background-color: darkorange;
+        scale: 1.2; 
+        filter: drop-shadow(0 0 5px darkorange);
+    }    
+}
+
+.links .social-links i:active{
+    color: #020C1B;
+    background-color: darkorange;
+    scale: 1.1; 
+    padding: 3px;
+}
+
+.links button:active{
+    color: #020C1B;
+    background-color: darkorange;
+    scale: 1.1; 
+    padding: 3px;
+}
+
+.intro button{
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.section-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h2{
+    color: white;
+}
+
+hr{
+    border-color: darkorange;
+    width: 250px;
+}
+
+.about-details{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 50px;
+}
+
+.about-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-details p{
+    font-size: 1.1rem;
+    margin-top: 0px;
+}
+
+.about-details img {
+    width: 350px;
+    border-radius: 12px;
+}
+
+.skills-details{
+   display: flex;
+   justify-content: space-between;
+}
+
+table{
+    border: white solid 2px;
+    border-collapse: collapse;
+}
+
+table.skills{
+    width: 15vw;
+}
+
+th{
+    border-bottom: white solid 1px;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    color: white;
+}
+
+td{
+    padding: 0.75rem 0rem 0.75rem 0.75rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+table img{
+    width: 25vw;
+    height: 14vw;
+}
+
+table.projects{
+    width: 25vw;
+    height: 250px;
+}
+
+.th-img{
+    padding: 0rem;
+    border-bottom: white solid px;
+
+}
+
+.projects-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.projects-details table{
+    box-shadow: 5px 5px 3px rgba(128, 128, 128, 0.404);   
+}
+
+.project-link1{
+    padding: 1rem 0rem 0.35rem 0.75rem;
+    color: white;
+}
+
+.project-link2{
+    padding: 0.35rem 0rem 1rem 0.75rem;
+    color: white;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+input, textarea{
+    background-color: transparent;
+    border: 1px white solid;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 60%;
+}
+
+.span{
+    grid-column: span 2;
+}
+.span2{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.input-button{
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.message{
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+    width: 25vw;
+    min-width: 200px;
+}
+
+.message>p{
+    margin: 0px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+b{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.footer>div p, .footer>div h4{
+    margin: 10px 0px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+h4{
+    color: white;
+}
+
+.footer>div p{
+    color: grey;
+}
+
+.footer .social-links a{
+    color: gray;
+}
+
