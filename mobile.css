@@ -26,25 +26,22 @@
 
 	.intro{
 	 	display: flex;
-        flex-direction: column-reverse;
-        row-gap: 2rem;
+        flex-direction: column;
 	}
-
-    .intro-img img{
-        height: 120px;
-        margin-bottom: 10px;
-    }
 
     .intro p{
         line-height: 25px;
         margin-top: 2px;
         margin-bottom: 3px;
-        width: 100%;
+        width: 100%;    
+        font-size: 13px;
+        word-spacing: normal;
+        letter-spacing: 2px;
     }
 
     h1{
         font-size: 35px;
-        margin: 0px 0px 5px 0px;
+        margin: 10px 0px 5px 0px;
     }
 
     .links{
@@ -178,19 +175,18 @@
 @media (min-width:768px) and (max-width:1000px){
     .intro{
 	 	display: flex;
-        flex-direction: column-reverse;
-        row-gap: 2rem;
+        flex-direction: column;
 	}
 
     .about-details{
 	 	display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         width: 100%;
         gap: 30px;
 	}
 
-     .about-details p{
+    .about-details p{
         width: 98%;
     }
 }

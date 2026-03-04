@@ -66,14 +66,17 @@ button{
 
 .intro{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .intro p{
-    line-height: 25px;
+    line-height: 40px;
     margin-top: 0px;
+    font-size: 1.6rem;
+    word-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .intro p span{
@@ -81,18 +84,13 @@ button{
     word-spacing: 5px;
 }
 
-.intro-img{
-    display: flex;
-    justify-self: center;
-}
-
-.intro-img img{
-    height: 200px;
+.intro-p{
+    margin-bottom: 0px;
 }
 
 h1{
-    font-size: 45px;
-    margin:0px;
+    font-size: 50px;
+    margin: 0px 0px 25px 0px;
     color: white;
 }
 
