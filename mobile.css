@@ -202,5 +202,9 @@
     .about-details p{
         font-size: 1.2rem;
     }
+
+    table.projects{
+        height: 420px;
+    }
 }
    
